@@ -1,0 +1,63 @@
+body { margin: 0px;}
+* {font-family: 'Roboto', sans-serif;}
+
+
+input {margin-bottom: 5px; margin-top: 2px; padding: 4px; font-size: 12px; }
+
+
+.spinner {width: 300px;margin:auto; display: block;}
+
+#main {
+  text-align: center;
+}
+
+#cabecera {
+  background-color: #1A0A1B;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .logo {
+  width: 70px;
+  animation: App-logo-spin infinite 20s linear;
+} */
+
+.mensaje {
+  color: whitesmoke;
+  margin-left: 20px;
+}
+/* #select {
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr;
+   grid-column-gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+#productosresultados{
+
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  width:100%;
+
+}
+.derecha{
+
+  padding-top: 4.5em;
+}
+
+img#izquierda {
+  float: left;
+}
+
+p.derecha {
+  float: right;
+  padding-top: 20.5em;
+}
